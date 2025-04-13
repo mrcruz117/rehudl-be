@@ -6,3 +6,6 @@ SELECT * FROM users WHERE email = ?;
 
 -- name: GetAllUsers :many
 SELECT * FROM users;
+
+-- name: DeleteAllUsers :exec
+DELETE FROM users;
